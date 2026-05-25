@@ -7,3 +7,5 @@ jest/
 package-lock.json
 
 package.json
+
+junit-platform-console-standalone-1.11.0.jar
