@@ -1,0 +1,9 @@
+node_modules/
+
+nodemods/
+
+jest/
+
+package-lock.json
+
+package.json
