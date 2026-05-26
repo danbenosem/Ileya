@@ -19,7 +19,7 @@ public class MoreOnceTest {
  @Test
     void testNegativeNumbers() {
         int[] array = {-5, -4, 2,-4,-5};
-        int[] expected = {-4,-5};
+        int[] expected = {-5,-4};
   assertArrayEquals(expected, MoreOnce.array(array));
     }
 

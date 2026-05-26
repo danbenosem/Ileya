@@ -14,13 +14,20 @@ ArrayList<Integer> items = new ArrayList<Integer>();
 ArrayList<Integer> duplicateItems = new ArrayList<Integer>(); 
 
   for (int index=0; index<array.length; index++){
-        if(!items.contains(array[index])){
 
-        items.add(array[index]);
-        }else{
+    for (int index2= index+1; index2<array.length; index2++){
 
-                if(!duplicateItems.contains(array[index])) duplicateItems.add(array[index]);
-     }
+         if(array[index]==array[index2]){
+
+
+                  duplicateItems.add(array[index]);
+
+               
+         }
+
+
+       }
+       
 
 
    }
