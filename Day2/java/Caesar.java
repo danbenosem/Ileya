@@ -12,6 +12,8 @@ public class Caesar{
 public static String encryptedText(String text, int shift) {
     String result = ""; 
 
+shift = shift % 26;
+
     for (int index = 0; index < text.length(); index++) {
         char letter = text.charAt(index);
 
