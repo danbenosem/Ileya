@@ -36,7 +36,7 @@ def completeTask(idNumber, completeTag):
    
     if idNumber in todoListUniqueId:
         index = todoListUniqueId.index(idNumber)
-        todoListCompletionStatus[index] = completeTag
+      
         return "Marked as complete!"
 
     return "Not marked as complete"
@@ -110,5 +110,5 @@ def main():
 
 
 
-main()
+
 
